@@ -1,0 +1,29 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="28135DF3-398B-4D2C-B56B-AF797DF6AC96/f:keymapper.cpp" caret="2371" fromTop="13" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="28135DF3-398B-4D2C-B56B-AF797DF6AC96/f:keymapper.cpp" caret="3955" fromTop="10" />
+      <File id="28135DF3-398B-4D2C-B56B-AF797DF6AC96/f:keymapper.cpp" caret="2193" fromTop="13" />
+      <File id="28135DF3-398B-4D2C-B56B-AF797DF6AC96/f:keymapper.cpp" caret="2443" fromTop="20" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.2\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

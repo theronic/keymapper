@@ -1,34 +1,10 @@
-/*
-	PROJECT:
-		Keymapper v1.1
-
-	DESCRIPTION:
-		Keymapper is a portable tool to remap Caps Lock to Backspace without rebooting.
-		Intended for Colemak enthusiasts roaming on others' QWERTY keyboard layouts.
-	
-		Caps Lock keypresses are intercepted with a global keyboard hook (SetWindowsHookEx)
-		and a backspace keypress is simulated in its place to improve touch typing (keybd_event).
-
-		Certain anti-virus heuristics may classify the executable as a potential threat
-		due to the keylogging potential of a global keyboard hook. The right way to remap
-		your keyboard is using a registry tool like SharpKeys.
-
-	LICENCE:
-		Copyright 2010 FreshCode (www.freshcode.co.za).
-
-		Redistribution and use in source and binary forms, with or without modification, are
-		permitted provided that the following conditions are met:
-
-			1. Redistributions of source code must retain the above copyright notice, this
-			list of conditions and the following disclaimer.
-
-			2. Redistributions in binary form must reproduce the above copyright notice, this
-			list of conditions and the following disclaimer in the documentation and/or other
-			materials provided with the distribution.
-
-		This software is provided by FreshCode ``as is'' without any express or implied warranty
-		blah blah blah if you break stuff, you're an idiot.
-*/
+/* Keymapper v1.1
+ *
+ * This program is free software. It comes without any warranty, to
+ * the extent permitted by applicable law. You can redistribute it
+ * and/or modify it under the terms of the Do What The Fuck You Want
+ * To Public License, Version 2, as published by Sam Hocevar. See
+ * http://sam.zoy.org/wtfpl/COPYING for more details. */
 
 // Make a really small executable
 #pragma comment(linker,"/ENTRY:main") // Set entry point

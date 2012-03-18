@@ -36,24 +36,18 @@ int main(int args, char* argv[])
 	const char message[] =
 		"Caps Lock Remapper\n"
 		"Remaps Caps Lock to Backspace on the fly without rebooting.\n"
-		"Copyright 2010 FreshCode (www.freshcode.co.za)\n"
+		"Written by Petrus Theron http://freshcode.co/\n"
+		"Fork this on GitHub: http://github.com/pate/keymapper\n"
 		"\nPress Ctrl+C or close window to exit.\n";
-
-	if (args > 2)
-	{
-	}
 
 	DWORD count = 0;
 	HANDLE hStdOut = GetStdHandle(STD_OUTPUT_HANDLE);
 	WriteConsoleA(hStdOut, message, sizeof(message)-2, &count, NULL);
 
 	if (!SetConsoleCtrlHandler(ConsoleEventHandler, TRUE))
-	{
 		return -1;
-	} else
-	{
-		dwMainThread = GetCurrentThreadId();
-	}
+
+	dwMainThread = GetCurrentThreadId();
 
 	// Retrieve the applications instance
 	HINSTANCE appInstance = GetModuleHandle(NULL);
@@ -118,4 +112,3 @@ BOOL WINAPI ConsoleEventHandler(DWORD dwCtrlType)
 			return FALSE;
 	}
 }
-

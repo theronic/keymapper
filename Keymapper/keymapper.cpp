@@ -36,7 +36,7 @@ int main(int args, char* argv[])
 	const char message[] =
 		"Caps Lock Remapper\n"
 		"Remaps Caps Lock to Backspace on the fly without rebooting.\n"
-		"Written by Petrus Theron http://freshcode.co/\n"
+		"Written by Petrus Theron http://petrustheron.com/\n"
 		"Fork this on GitHub: http://github.com/theronic/keymapper\n"
 		"\nPress Ctrl+C or close window to exit.\n";
 

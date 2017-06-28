@@ -37,7 +37,7 @@ int main(int args, char* argv[])
 		"Caps Lock Remapper\n"
 		"Remaps Caps Lock to Backspace on the fly without rebooting.\n"
 		"Written by Petrus Theron http://freshcode.co/\n"
-		"Fork this on GitHub: http://github.com/pate/keymapper\n"
+		"Fork this on GitHub: http://github.com/theronic/keymapper\n"
 		"\nPress Ctrl+C or close window to exit.\n";
 
 	DWORD count = 0;
